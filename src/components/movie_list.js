@@ -3,9 +3,17 @@ import Grid from "@material-ui/core/Grid";
 import MovieCard from "./movie_card";
 import PropTypes from "prop-types";
 
+/**
+ * MovieList displays a list of MovieCards with active flag == true
+ * @param props - genres - Array of Genres objects.
+ * @param props - movies - Array of Movies objects.
+ * @returns {*}
+ */
 const MovieList = props => {
   function getGenreNamesFromIds(genreIds) {
     let genreNames = [];
+    // Loop through an array of genre Ids from a movie and find it's
+    // name in the genres array.
     genreIds.forEach(genreId => {
       const genreName = props.genres.find(genre => {
         return genre.id === genreId;

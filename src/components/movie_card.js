@@ -6,6 +6,9 @@ import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
 import PropTypes from "prop-types";
 
+/**
+ * Display a Movie Card with movie information including Poster Image, Title, Rating and Genres.
+ */
 const MovieCard = props => {
   const imageSrc = `https://image.tmdb.org/t/p/w500/${props.poster}`;
   return (
