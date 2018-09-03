@@ -57,6 +57,8 @@ and the other is a slider to change the Rating of the movies in the results set.
 The slider uses a component called rc-slider. https://www.npmjs.com/package/rc-slider
 
 ## Installation instructions
+Clone the project to your local machine<br>
+You will need node and npm installed. https://www.npmjs.com/get-npm <br>
 ```
 npm install
 ```
