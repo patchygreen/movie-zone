@@ -13,7 +13,7 @@ const MovieCard = props => {
   const imageSrc = `https://image.tmdb.org/t/p/w500/${props.poster}`;
   return (
     <div>
-      <Card>
+      <Card style={{ minWidth: "300px" }}>
         <CardMedia
           style={{ height: 0, paddingTop: "56.25%" }}
           image={imageSrc}
