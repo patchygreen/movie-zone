@@ -3,7 +3,7 @@
  * The API Key is hardcoded here for convenience but will be removed to an environment config file. (.env)
  */
 
-const MOVIE_DB_API_KEY = "a55d9216d5229c24b301c848809a2a1b";
+const MOVIE_DB_API_KEY = "YOUR_KEY_HERE";
 const MOVIE_DB_BASE_URL = "https://api.themoviedb.org/3";
 
 const createMovieDbUrl = (relativeUrl) => {
